@@ -1,7 +1,8 @@
 # shortener-bundle (Symfony)
 
-Provides shorten_text and shorten_html twig filters, which shorten (cut) 
-plain text or html to the $length, preventing braking words and tags.
+shortener-bundle for Symfony provides shorten_text and shorten_html twig 
+filters, which shorten (cut) plain text or html to the $length, 
+preventing braking words and tags.
 
 Read [sashabo/shortener](https://packagist.org/packages/sashabo/shortener)
 readme for retails.
