@@ -1,0 +1,23 @@
+{
+    "name": "sashabo/shortener-bundle",
+    "version": "1.0",
+    "description": "Provides shorten_text and shorten_html twig filters, which shorten (cut) plain text or html to the $length, preventing braking words and tags.",
+    "type": "symfony-bundle",
+    "license": "GPL-3.0-only",
+    "autoload": {
+        "psr-4": {
+            "SashaBo\\Shortener\\SymfonyBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sasha Bo"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "symfony/dependency-injection": ">=6.1.0",
+        "symfony/http-kernel": ">=6.1.0",
+        "sashabo/shortener-for-twig": ">=1.0"
+    }
+}

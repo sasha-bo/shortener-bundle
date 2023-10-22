@@ -1,0 +1,7 @@
+services:
+    shortener_twig_extension:
+        autowire: true
+        autoconfigure: true
+        class: SashaBo\Shortener\Twig\ShortenerTwigExtension
+        tags:
+            - { name: twig.extension }
